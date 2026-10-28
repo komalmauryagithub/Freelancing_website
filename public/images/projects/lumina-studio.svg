@@ -1,0 +1,29 @@
+<svg width="800" height="480" viewBox="0 0 800 480" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="480" rx="16" fill="#08090D"/>
+  <rect x="1" y="1" width="798" height="478" rx="15" stroke="#1E293B" stroke-width="2"/>
+  
+  <ellipse cx="400" cy="240" rx="260" ry="140" fill="#8B5CF6" fill-opacity="0.12"/>
+  <circle cx="200" cy="200" r="100" fill="#38BDF8" fill-opacity="0.10"/>
+
+  <!-- Agency navigation -->
+  <text x="60" y="60" fill="#F8FAFC" font-family="system-ui, sans-serif" font-size="16" font-weight="800" letter-spacing="2">LUMINA // 01</text>
+  <text x="560" y="60" fill="#94A3B8" font-family="system-ui, sans-serif" font-size="13">Work</text>
+  <text x="620" y="60" fill="#94A3B8" font-family="system-ui, sans-serif" font-size="13">Index</text>
+  <text x="680" y="60" fill="#38BDF8" font-family="system-ui, sans-serif" font-size="13" font-weight="600">Contact</text>
+
+  <!-- Big Hero Typography -->
+  <text x="60" y="190" fill="#F8FAFC" font-family="system-ui, sans-serif" font-size="52" font-weight="900" letter-spacing="-1">CINEMATIC</text>
+  <text x="60" y="246" fill="#C084FC" font-family="system-ui, sans-serif" font-size="52" font-weight="900" letter-spacing="-1">DIGITAL CRAFT.</text>
+
+  <rect x="60" y="270" width="300" height="2" fill="#38BDF8" fill-opacity="0.6"/>
+  <text x="60" y="310" fill="#94A3B8" font-family="system-ui, sans-serif" font-size="15">Transforming forward-thinking brands into cultural touchstones.</text>
+
+  <!-- Interactive Project showcase card -->
+  <rect x="480" y="130" width="260" height="280" rx="12" fill="#131622" stroke="#252D42"/>
+  <rect x="500" y="150" width="220" height="150" rx="8" fill="#1C2134"/>
+  <circle cx="610" cy="225" r="30" fill="#8B5CF6" fill-opacity="0.4"/>
+  <polygon points="605,215 620,225 605,235" fill="#FFFFFF"/>
+  <text x="500" y="330" fill="#F8FAFC" font-family="system-ui, sans-serif" font-size="14" font-weight="700">Aethelgard World (Case 04)</text>
+  <text x="500" y="352" fill="#38BDF8" font-family="system-ui, sans-serif" font-size="12">Art Direction &amp; Motion</text>
+  <text x="500" y="385" fill="#94A3B8" font-family="system-ui, sans-serif" font-size="11">00:42 Reel • 4K HDR</text>
+</svg>

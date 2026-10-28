@@ -1,0 +1,61 @@
+<svg width="800" height="480" viewBox="0 0 800 480" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="480" rx="16" fill="#0D0A0A"/>
+  <rect x="1" y="1" width="798" height="478" rx="15" stroke="#2B1919" stroke-width="2"/>
+  
+  <!-- Ambient glows -->
+  <circle cx="700" cy="120" r="160" fill="#EF4444" fill-opacity="0.09"/>
+  <circle cx="160" cy="380" r="140" fill="#F97316" fill-opacity="0.08"/>
+
+  <!-- Storefront Header -->
+  <rect x="24" y="24" width="752" height="48" rx="8" fill="#1C1212"/>
+  <text x="44" y="54" fill="#F8FAFC" font-family="system-ui, sans-serif" font-size="18" font-weight="900">KFOOD // 한식</text>
+  <rect x="230" y="38" width="55" height="20" rx="4" fill="#2D1A1A"/>
+  <text x="242" y="52" fill="#FCA5A5" font-family="system-ui, sans-serif" font-size="10" font-weight="600">Ramen</text>
+  <rect x="295" y="38" width="55" height="20" rx="4" fill="#2D1A1A"/>
+  <text x="307" y="52" fill="#FCA5A5" font-family="system-ui, sans-serif" font-size="10" font-weight="600">Kimchi</text>
+  <rect x="360" y="38" width="65" height="20" rx="4" fill="#2D1A1A"/>
+  <text x="370" y="52" fill="#FCA5A5" font-family="system-ui, sans-serif" font-size="10" font-weight="600">Snacks</text>
+  <rect x="680" y="34" width="80" height="28" rx="14" fill="#EF4444" fill-opacity="0.2" stroke="#EF4444"/>
+  <text x="696" y="52" fill="#EF4444" font-family="system-ui, sans-serif" font-size="11" font-weight="700">Cart (3)</text>
+
+  <!-- Left: Featured Korean Delicacy -->
+  <rect x="24" y="88" width="470" height="368" rx="12" fill="#170F0F" stroke="#2B1919"/>
+  <rect x="46" y="110" width="80" height="22" rx="4" fill="#EF4444" fill-opacity="0.2"/>
+  <text x="56" y="125" fill="#EF4444" font-family="system-ui, sans-serif" font-size="10" font-weight="700">HOT &amp; SPICY 🔥</text>
+  
+  <text x="46" y="160" fill="#F8FAFC" font-family="system-ui, sans-serif" font-size="26" font-weight="800">Spicy Tteokbokki &amp; Kimchi Box</text>
+  <text x="46" y="185" fill="#A8A29E" font-family="system-ui, sans-serif" font-size="13">Authentic rice cakes simmered in gochujang broth with aged kimchi.</text>
+
+  <!-- Meal kit visual graphics -->
+  <circle cx="259" cy="275" r="75" fill="#241515" stroke="#EF4444" stroke-width="2"/>
+  <circle cx="259" cy="275" r="50" fill="#2F1818"/>
+  <text x="236" y="280" fill="#F87171" font-family="system-ui, sans-serif" font-size="12" font-weight="700">MEAL KIT</text>
+
+  <rect x="46" y="385" width="160" height="40" rx="8" fill="#EF4444"/>
+  <text x="70" y="410" fill="#FFFFFF" font-family="system-ui, sans-serif" font-size="13" font-weight="700">Order Now — $18.99</text>
+
+  <rect x="218" y="385" width="130" height="40" rx="8" fill="#2D1A1A" stroke="#442525"/>
+  <text x="240" y="410" fill="#F8FAFC" font-family="system-ui, sans-serif" font-size="12" font-weight="600">Save to Wishlist</text>
+
+  <!-- Right: Cart / Quick Order Drawer -->
+  <rect x="508" y="88" width="268" height="368" rx="12" fill="#140E0E" stroke="#2B1919"/>
+  <text x="526" y="120" fill="#F8FAFC" font-family="system-ui, sans-serif" font-size="14" font-weight="700">Shopping Cart (3 items)</text>
+  
+  <rect x="526" y="136" width="232" height="66" rx="8" fill="#1C1313" stroke="#2B1919"/>
+  <rect x="536" y="146" width="46" height="46" rx="6" fill="#2F1A1A"/>
+  <text x="592" y="163" fill="#F8FAFC" font-family="system-ui, sans-serif" font-size="11" font-weight="600">Shin Ramyun 5-Pack</text>
+  <text x="592" y="181" fill="#EF4444" font-family="system-ui, sans-serif" font-size="11" font-weight="700">$9.50</text>
+
+  <rect x="526" y="210" width="232" height="66" rx="8" fill="#1C1313" stroke="#2B1919"/>
+  <rect x="536" y="220" width="46" height="46" rx="6" fill="#2F1A1A"/>
+  <text x="592" y="237" fill="#F8FAFC" font-family="system-ui, sans-serif" font-size="11" font-weight="600">Aged Napa Kimchi 500g</text>
+  <text x="592" y="255" fill="#EF4444" font-family="system-ui, sans-serif" font-size="11" font-weight="700">$12.00</text>
+
+  <rect x="526" y="284" width="232" height="66" rx="8" fill="#1C1313" stroke="#2B1919"/>
+  <rect x="536" y="294" width="46" height="46" rx="6" fill="#2F1A1A"/>
+  <text x="592" y="311" fill="#F8FAFC" font-family="system-ui, sans-serif" font-size="11" font-weight="600">Sweet Honey Butter Chips</text>
+  <text x="592" y="329" fill="#EF4444" font-family="system-ui, sans-serif" font-size="11" font-weight="700">$4.50</text>
+
+  <rect x="526" y="388" width="232" height="42" rx="8" fill="#F97316"/>
+  <text x="578" y="413" fill="#000000" font-family="system-ui, sans-serif" font-size="13" font-weight="800">Checkout $26.00</text>
+</svg>

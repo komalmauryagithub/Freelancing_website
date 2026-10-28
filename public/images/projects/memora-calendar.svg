@@ -1,0 +1,109 @@
+<svg width="800" height="480" viewBox="0 0 800 480" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="480" rx="16" fill="#0D0C13"/>
+  <rect x="1" y="1" width="798" height="478" rx="15" stroke="#261E38" stroke-width="2"/>
+  
+  <!-- Glows -->
+  <circle cx="200" cy="120" r="150" fill="#EC4899" fill-opacity="0.08"/>
+  <circle cx="680" cy="380" r="160" fill="#A855F7" fill-opacity="0.08"/>
+
+  <!-- Top bar -->
+  <rect x="20" y="20" width="760" height="44" rx="8" fill="#161324"/>
+  <circle cx="44" cy="42" r="6" fill="#EF4444" fill-opacity="0.8"/>
+  <circle cx="64" cy="42" r="6" fill="#F59E0B" fill-opacity="0.8"/>
+  <circle cx="84" cy="42" r="6" fill="#10B981" fill-opacity="0.8"/>
+  <rect x="110" y="32" width="230" height="20" rx="6" fill="#241E38"/>
+  <text x="125" y="46" fill="#9CA3AF" font-family="system-ui, sans-serif" font-size="11" font-weight="500">modera-2dh0.onrender.com/calendar</text>
+  <rect x="670" y="30" width="95" height="24" rx="6" fill="#EC4899" fill-opacity="0.2"/>
+  <text x="682" y="46" fill="#F472B6" font-family="system-ui, sans-serif" font-size="11" font-weight="700">Memory Scrapbook</text>
+
+  <!-- Left: Interactive Monthly Event Grid -->
+  <rect x="20" y="80" width="460" height="380" rx="10" fill="#141122" stroke="#261E38"/>
+  <text x="40" y="112" fill="#F8FAFC" font-family="system-ui, sans-serif" font-size="16" font-weight="800">October 2026 // Events Grid</text>
+  <text x="40" y="130" fill="#A78BFA" font-family="system-ui, sans-serif" font-size="11">Click any day to attach polaroids, journal notes, or schedule milestones</text>
+
+  <!-- Calendar Day cells -->
+  <!-- Header days -->
+  <text x="45" y="160" fill="#6B7280" font-family="system-ui, sans-serif" font-size="10" font-weight="600">MON</text>
+  <text x="105" y="160" fill="#6B7280" font-family="system-ui, sans-serif" font-size="10" font-weight="600">TUE</text>
+  <text x="165" y="160" fill="#6B7280" font-family="system-ui, sans-serif" font-size="10" font-weight="600">WED</text>
+  <text x="225" y="160" fill="#6B7280" font-family="system-ui, sans-serif" font-size="10" font-weight="600">THU</text>
+  <text x="285" y="160" fill="#6B7280" font-family="system-ui, sans-serif" font-size="10" font-weight="600">FRI</text>
+  <text x="345" y="160" fill="#6B7280" font-family="system-ui, sans-serif" font-size="10" font-weight="600">SAT</text>
+  <text x="405" y="160" fill="#6B7280" font-family="system-ui, sans-serif" font-size="10" font-weight="600">SUN</text>
+
+  <!-- Grid samples -->
+  <rect x="40" y="174" width="54" height="54" rx="6" fill="#1C1830"/>
+  <text x="48" y="192" fill="#9CA3AF" font-family="system-ui, sans-serif" font-size="10">12</text>
+  
+  <rect x="100" y="174" width="54" height="54" rx="6" fill="#1C1830"/>
+  <text x="108" y="192" fill="#9CA3AF" font-family="system-ui, sans-serif" font-size="10">13</text>
+
+  <rect x="160" y="174" width="54" height="54" rx="6" fill="#2E1C38" stroke="#EC4899"/>
+  <text x="168" y="192" fill="#F472B6" font-family="system-ui, sans-serif" font-size="10" font-weight="700">14 ★</text>
+  <circle cx="187" cy="210" r="8" fill="#EC4899"/>
+
+  <rect x="220" y="174" width="54" height="54" rx="6" fill="#1C1830"/>
+  <text x="228" y="192" fill="#9CA3AF" font-family="system-ui, sans-serif" font-size="10">15</text>
+
+  <rect x="280" y="174" width="54" height="54" rx="6" fill="#1C1830"/>
+  <text x="288" y="192" fill="#9CA3AF" font-family="system-ui, sans-serif" font-size="10">16</text>
+
+  <rect x="340" y="174" width="54" height="54" rx="6" fill="#1F2836"/>
+  <text x="348" y="192" fill="#38BDF8" font-family="system-ui, sans-serif" font-size="10">17 Trip</text>
+
+  <rect x="400" y="174" width="54" height="54" rx="6" fill="#1C1830"/>
+  <text x="408" y="192" fill="#9CA3AF" font-family="system-ui, sans-serif" font-size="10">18</text>
+
+  <!-- Row 2 -->
+  <rect x="40" y="236" width="54" height="54" rx="6" fill="#1C1830"/>
+  <text x="48" y="254" fill="#9CA3AF" font-family="system-ui, sans-serif" font-size="10">19</text>
+
+  <rect x="100" y="236" width="54" height="54" rx="6" fill="#1C1830"/>
+  <text x="108" y="254" fill="#9CA3AF" font-family="system-ui, sans-serif" font-size="10">20</text>
+
+  <rect x="160" y="236" width="54" height="54" rx="6" fill="#281A36"/>
+  <text x="168" y="254" fill="#C084FC" font-family="system-ui, sans-serif" font-size="10">21 Party</text>
+
+  <rect x="220" y="236" width="54" height="54" rx="6" fill="#1C1830"/>
+  <text x="228" y="254" fill="#9CA3AF" font-family="system-ui, sans-serif" font-size="10">22</text>
+
+  <rect x="280" y="236" width="54" height="54" rx="6" fill="#1C1830"/>
+  <text x="288" y="254" fill="#9CA3AF" font-family="system-ui, sans-serif" font-size="10">23</text>
+
+  <rect x="340" y="236" width="54" height="54" rx="6" fill="#1C1830"/>
+  <text x="348" y="254" fill="#9CA3AF" font-family="system-ui, sans-serif" font-size="10">24</text>
+
+  <rect x="400" y="236" width="54" height="54" rx="6" fill="#1C1830"/>
+  <text x="408" y="254" fill="#9CA3AF" font-family="system-ui, sans-serif" font-size="10">25</text>
+
+  <!-- Countdown Strip -->
+  <rect x="40" y="310" width="414" height="60" rx="8" fill="#1E1933" stroke="#31264E"/>
+  <text x="56" y="332" fill="#F472B6" font-family="system-ui, sans-serif" font-size="11" font-weight="700">⏳ UPCOMING COUNTDOWN</text>
+  <text x="56" y="354" fill="#F8FAFC" font-family="system-ui, sans-serif" font-size="13" font-weight="600">Annual Studio Anniversary in 4 Days, 16 Hours</text>
+
+  <rect x="40" y="388" width="160" height="42" rx="8" fill="#A855F7"/>
+  <text x="64" y="413" fill="#FFFFFF" font-family="system-ui, sans-serif" font-size="12" font-weight="700">+ Add New Event</text>
+
+  <!-- Right: Polaroid Memory Scrapbook Pinboard -->
+  <rect x="492" y="80" width="288" height="380" rx="10" fill="#151225" stroke="#261E38"/>
+  <text x="510" y="112" fill="#F8FAFC" font-family="system-ui, sans-serif" font-size="14" font-weight="700">Pinned Polaroids &amp; Captions</text>
+  
+  <!-- Polaroid 1 (Tilted card) -->
+  <g transform="rotate(-3 630 180)">
+    <rect x="520" y="130" width="130" height="150" rx="4" fill="#FFFFFF"/>
+    <rect x="528" y="138" width="114" height="106" rx="2" fill="#2E2042"/>
+    <circle cx="585" cy="185" r="28" fill="#EC4899" fill-opacity="0.4"/>
+    <text x="536" y="265" fill="#1F2937" font-family="system-ui, sans-serif" font-size="10" font-weight="700">Kyoto Trip '26 🌸</text>
+  </g>
+
+  <!-- Polaroid 2 (Tilted card) -->
+  <g transform="rotate(4 680 280)">
+    <rect x="630" y="210" width="130" height="150" rx="4" fill="#FFFFFF"/>
+    <rect x="638" y="218" width="114" height="106" rx="2" fill="#1C2738"/>
+    <circle cx="695" cy="265" r="28" fill="#38BDF8" fill-opacity="0.4"/>
+    <text x="646" y="345" fill="#1F2937" font-family="system-ui, sans-serif" font-size="10" font-weight="700">Hackathon Win 🏆</text>
+  </g>
+
+  <rect x="510" y="400" width="250" height="36" rx="6" fill="#241E38" stroke="#3D305C"/>
+  <text x="532" y="422" fill="#E2E8F0" font-family="system-ui, sans-serif" font-size="11" font-weight="600">Cloudinary CDN Synced (48 Photos)</text>
+</svg>

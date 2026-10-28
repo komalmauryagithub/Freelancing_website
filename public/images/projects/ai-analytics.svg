@@ -1,0 +1,78 @@
+<svg width="800" height="480" viewBox="0 0 800 480" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="480" rx="16" fill="#0A0E17"/>
+  <rect x="1" y="1" width="798" height="478" rx="15" stroke="#1E293B" stroke-width="2"/>
+  
+  <!-- Glows -->
+  <circle cx="200" cy="140" r="160" fill="#10B981" fill-opacity="0.08"/>
+  <circle cx="680" cy="380" r="160" fill="#6366F1" fill-opacity="0.08"/>
+
+  <!-- Top bar -->
+  <rect x="20" y="20" width="760" height="44" rx="8" fill="#111827"/>
+  <circle cx="44" cy="42" r="6" fill="#EF4444" fill-opacity="0.8"/>
+  <circle cx="64" cy="42" r="6" fill="#F59E0B" fill-opacity="0.8"/>
+  <circle cx="84" cy="42" r="6" fill="#10B981" fill-opacity="0.8"/>
+  <rect x="110" y="32" width="280" height="20" rx="6" fill="#1F2937"/>
+  <text x="125" y="46" fill="#9CA3AF" font-family="system-ui, sans-serif" font-size="11" font-weight="500">ai-analytics.onrender.com/dashboard/expenses</text>
+
+  <!-- Metric Badges -->
+  <rect x="20" y="80" width="180" height="88" rx="8" fill="#111827" stroke="#1F2937"/>
+  <text x="36" y="104" fill="#9CA3AF" font-family="system-ui, sans-serif" font-size="11">Monthly Burn Rate</text>
+  <text x="36" y="136" fill="#F9FAFB" font-family="system-ui, sans-serif" font-size="22" font-weight="800">$14,280</text>
+  <text x="124" y="136" fill="#10B981" font-family="system-ui, sans-serif" font-size="11" font-weight="700">-8.4% 📉</text>
+
+  <rect x="212" y="80" width="180" height="88" rx="8" fill="#111827" stroke="#1F2937"/>
+  <text x="228" y="104" fill="#9CA3AF" font-family="system-ui, sans-serif" font-size="11">Forecasted Savings</text>
+  <text x="228" y="136" fill="#F9FAFB" font-family="system-ui, sans-serif" font-size="22" font-weight="800">$4,920</text>
+  <text x="314" y="136" fill="#6366F1" font-family="system-ui, sans-serif" font-size="11" font-weight="700">AI Target</text>
+
+  <rect x="404" y="80" width="180" height="88" rx="8" fill="#111827" stroke="#1F2937"/>
+  <text x="420" y="104" fill="#9CA3AF" font-family="system-ui, sans-serif" font-size="11">Budget Threshold</text>
+  <text x="420" y="136" fill="#F9FAFB" font-family="system-ui, sans-serif" font-size="22" font-weight="800">68%</text>
+  <text x="470" y="136" fill="#10B981" font-family="system-ui, sans-serif" font-size="11" font-weight="700">Healthy</text>
+
+  <rect x="596" y="80" width="184" height="88" rx="8" fill="#111827" stroke="#1F2937"/>
+  <text x="612" y="104" fill="#9CA3AF" font-family="system-ui, sans-serif" font-size="11">Reports Generated</text>
+  <text x="612" y="136" fill="#F9FAFB" font-family="system-ui, sans-serif" font-size="22" font-weight="800">142</text>
+  <text x="660" y="136" fill="#F59E0B" font-family="system-ui, sans-serif" font-size="11" font-weight="700">PDF &amp; CSV</text>
+
+  <!-- Big Interactive Chart Panel -->
+  <rect x="20" y="180" width="460" height="280" rx="10" fill="#111827" stroke="#1F2937"/>
+  <text x="40" y="210" fill="#F9FAFB" font-family="system-ui, sans-serif" font-size="14" font-weight="700">Expense Trajectory &amp; Multi-Period Forecast</text>
+  <text x="40" y="228" fill="#9CA3AF" font-family="system-ui, sans-serif" font-size="11">PostgreSQL relational aggregates with real-time FastAPI ingestion</text>
+
+  <!-- Line graph bars and trajectory -->
+  <line x1="50" y1="410" x2="450" y2="410" stroke="#374151" stroke-width="1"/>
+  <line x1="50" y1="350" x2="450" y2="350" stroke="#374151" stroke-width="1" stroke-dasharray="4 4"/>
+  <line x1="50" y1="290" x2="450" y2="290" stroke="#374151" stroke-width="1" stroke-dasharray="4 4"/>
+  
+  <rect x="75" y="320" width="28" height="90" rx="4" fill="#1E293B"/>
+  <rect x="135" y="280" width="28" height="130" rx="4" fill="#1E293B"/>
+  <rect x="195" y="340" width="28" height="70" rx="4" fill="#1E293B"/>
+  <rect x="255" y="260" width="28" height="150" rx="4" fill="#1E293B"/>
+  <rect x="315" y="300" width="28" height="110" rx="4" fill="#10B981" fill-opacity="0.3"/>
+  <rect x="375" y="240" width="28" height="170" rx="4" fill="#10B981"/>
+
+  <path d="M 89 310 Q 200 240 270 250 T 390 230" stroke="#10B981" stroke-width="3" fill="none"/>
+  <circle cx="390" cy="230" r="5" fill="#10B981"/>
+
+  <!-- Right: AI Financial Assistant widget -->
+  <rect x="492" y="180" width="288" height="280" rx="10" fill="#13192B" stroke="#25314D"/>
+  <rect x="508" y="196" width="130" height="22" rx="4" fill="#6366F1" fill-opacity="0.2"/>
+  <text x="518" y="211" fill="#818CF8" font-family="system-ui, sans-serif" font-size="10" font-weight="700">AI FINANCIAL ASSISTANT</text>
+  
+  <rect x="508" y="228" width="256" height="88" rx="8" fill="#1B233D"/>
+  <text x="522" y="248" fill="#F9FAFB" font-family="system-ui, sans-serif" font-size="11" font-weight="600">💡 Optimization Insight</text>
+  <text x="522" y="268" fill="#CBD5E1" font-family="system-ui, sans-serif" font-size="10">"SaaS subscription costs peaked</text>
+  <text x="522" y="282" fill="#CBD5E1" font-family="system-ui, sans-serif" font-size="10">by 18% in Q3. Switching to annual</text>
+  <text x="522" y="296" fill="#10B981" font-family="system-ui, sans-serif" font-size="10" font-weight="700">billing saves $1,420/year."</text>
+
+  <rect x="508" y="328" width="256" height="56" rx="8" fill="#1B233D"/>
+  <text x="522" y="348" fill="#F9FAFB" font-family="system-ui, sans-serif" font-size="11" font-weight="600">📊 Automated Report Ready</text>
+  <text x="522" y="366" fill="#94A3B8" font-family="system-ui, sans-serif" font-size="10">October P&amp;L statement compiled.</text>
+
+  <rect x="508" y="400" width="122" height="36" rx="6" fill="#6366F1"/>
+  <text x="532" y="423" fill="#FFFFFF" font-family="system-ui, sans-serif" font-size="11" font-weight="700">Export PDF</text>
+
+  <rect x="640" y="400" width="124" height="36" rx="6" fill="#1F2937"/>
+  <text x="666" y="423" fill="#F9FAFB" font-family="system-ui, sans-serif" font-size="11" font-weight="600">Export CSV</text>
+</svg>

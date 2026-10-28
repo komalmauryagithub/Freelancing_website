@@ -1,0 +1,44 @@
+# Render Infrastructure as Code Blueprint
+# Deploys Vanguard Freelancer Platform Web Service + Managed PostgreSQL Database in the same region.
+# See: https://render.com/docs/blueprint-spec
+
+version: "1"
+
+databases:
+  - name: freelancer-db
+    databaseName: freelancer_platform
+    user: vanguard_admin
+    region: oregon
+    plan: starter # Starter plan includes automated daily snapshots and high availability
+    ipAllowList: [] # Strict VPC access from internal services; add your IP if remote psql required
+
+services:
+  # Next.js Fullstack Production Web Service
+  - type: web
+    name: vanguard-freelancer-platform
+    runtime: node
+    region: oregon # Co-located in the same region as the database for minimal latency
+    plan: starter
+    branch: main
+    buildCommand: npm install && npx prisma generate && npx prisma migrate deploy && npm run build
+    startCommand: npm run start
+    healthCheckPath: /api/health
+    autoDeploy: true
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: DATABASE_URL
+        fromDatabase:
+          name: freelancer-db
+          property: connectionString # Automatically injects internal Render-to-Render connection string
+      - key: NEXT_PUBLIC_APP_URL
+        value: https://vanguard-freelancer-platform.onrender.com # Replace with your custom domain if configured
+      # Razorpay Payment Credentials (Server Secrets & Public Key)
+      - key: RAZORPAY_KEY_ID
+        sync: false # Set securely in Render Dashboard (e.g. rzp_test_... or rzp_live_...)
+      - key: RAZORPAY_KEY_SECRET
+        sync: false # Set securely in Render Dashboard
+      - key: RAZORPAY_WEBHOOK_SECRET
+        sync: false # Set securely in Render Dashboard
+      - key: NEXT_PUBLIC_RAZORPAY_KEY_ID
+        sync: false # Set securely in Render Dashboard (matches RAZORPAY_KEY_ID)
